@@ -2,7 +2,14 @@ html {
     background-color: #faebd7;
 }
 
-p, li {
+body {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid white;
+}
+
+p, li, :any-link {
     color: goldenrod;
     font-size: 16px;
     line-height: 2;
@@ -17,5 +24,21 @@ p, li {
   h1 {
       font-size: 60px;
       text-align: center;
+      margin: 0;
+      padding: 20px 0;
+      text shadow: 3px 3px 1px black;
   }
+
+  h2, h3, h4 {
+      text-align: center;
+  }
+
+  img {
+      display: block;
+      margin: 0 auto;
+      width: 600px;
+      height: 750px;
+  }
+
+  
 
